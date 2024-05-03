@@ -11,18 +11,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="row m-0 p-3" style="min-height: 1000px;">
-        <div class="col-2 p-3">
-            <div class="card category-list">
-                <CategoryCard :categories="state.categories" :selectedCategory="state.selectedCategory"
-                    @filter:category="setSelectedCategory" />
-            </div>
-        </div>
-        <div class="col-10 p-3 product-list">
-            <ProductCard v-if="state.products.length > 0" :products="filteredProducts" />
-            <div v-else class="text-center">Loading...</div>
-        </div>
-    </div> -->
+    
 </template>
 
 <script>

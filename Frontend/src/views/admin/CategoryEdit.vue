@@ -1,6 +1,6 @@
 <template>
     <div v-if="category" class="page">
-        <h4>Hiệu chỉnh Thương hiệu sản phẩm</h4>
+        <h4>Hiệu chỉnh Loại nước</h4>
         <CategoryForm :category="category" @submit:category="updateCategory" @delete:category="deleteCategory" />
     </div>
     <div class="p-5 m-5"></div>

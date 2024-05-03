@@ -229,33 +229,7 @@ export default defineComponent({
             updateChartData();
         });
 
-        // const retrieveMonthlyChartData = async () => {
-        //     try {
-        //         const ordersData = await OrderService.all();
-        //         calculateAndSetMonthlyRevenueData(ordersData);
-        //     } catch (error) {
-        //         console.log(error);
-        //     }
-        // };
-
-        // const calculateAndSetMonthlyRevenueData = (orders) => {
-        //     const monthlyRevenue = {};
-        //     orders.forEach((order) => {
-        //         const orderMonth = moment(order.created_at, 'MM/DD/YYYY, h:mm:ss A').format('YYYY-MM');
-        //         if (!monthlyRevenue[orderMonth]) {
-        //             monthlyRevenue[orderMonth] = 0;
-        //         }
-        //         monthlyRevenue[orderMonth] += order.total;
-        //     });
-
-        //     const last6Months = Array.from({ length: 6 }, (_, i) => moment().subtract(i, 'months').format('YYYY-MM'));
-        //     console.log(last6Months);
-        //     console.log(monthlyRevenue);
-        //     monthlyChartData.labels = last6Months.reverse();
-        //     monthlyChartData.value.datasets[0].data = last6Months.map((month) => monthlyRevenue[month] || 0);
-
-        // };
-        // retrieveMonthlyChartData();
+        
         onMounted(() => {
             updateChartData();
         });

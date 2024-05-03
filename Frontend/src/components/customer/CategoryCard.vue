@@ -53,13 +53,13 @@ export default defineComponent({
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: rgb(255, 165, 194);
-    border-color: rgb(249, 159, 232);
+    background-color: #9fd1f7;
+    border-color:#9fd1f7 ;
 }
 
 .list-group-item.active::before {
     content: '';
-    background-image: url('src/assets/img/hover-teddy.png');
+    background-image: url('src/assets/img/check-mark.png');
     background-size: 16px 16px;
     display: inline-block;
     width: 16px;

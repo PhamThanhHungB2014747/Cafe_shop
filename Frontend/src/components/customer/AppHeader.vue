@@ -39,7 +39,7 @@
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar sticky-top navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="/" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 display-4 "><span class="">Cafe</span>Shop</h1>
+                    <h1 class="m-0 display-4 text-secondary"><span class="text-success">Cafe</span>Shop</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
 
                     </div>
                     <a href="/" class="navbar-brand mx-5 d-none d-lg-block">
-                        <h2 class="m-0 display-4 text-secondary"><span class="text-primary">Cafe</span>Shop</h2>
+                        <h2 class="m-0 display-4 text-secondary"><span class="text-success">Cafe</span>Shop</h2>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
                         <div>
@@ -196,7 +196,7 @@ export default defineComponent({
     border-radius: 50%;
     box-shadow: 0 5px 10px #ffcbcb8a;
     transition: all .5s ease-in-out;
-    background-color: #e44a6be4;
+    background-color: #42AEFF;
     padding-left: 30px;
     color: #fff;
 }
@@ -255,18 +255,19 @@ export default defineComponent({
     height: 50%;
     top: 0;
     left: 0;
-    background: #F195B2;
+    background: #42AEFF;
 }
 
 .nav-tabs .nav-link.active {
     font-weight: bold !important;
     background-color: #faf1ff !important;
-    color: rgb(255, 105, 163) !important;
+    /* color: rgb(255, 105, 163) !important; */
+    color: #42AEFF !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #F195B2;
+    color: #42AEFF;
 }
 
 .navbar-collapse {

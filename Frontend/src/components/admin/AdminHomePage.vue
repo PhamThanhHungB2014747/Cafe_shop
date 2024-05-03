@@ -15,18 +15,12 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
-                            <!-- <span>Báo cáo bài tập lớn CT449 - Phát triển ứng dụng web</span> -->
                         </div>
                     </div>
                 </footer>
                 <!-- End of Footer -->
             </div>
         </div>
-
-        <!-- <div class="w3-overlay w3-hide-large w3-animate-opacity" style="cursor: pointer"></div>
-        <div class="w3-main" style="margin-left: 310px; margin-top: 43px"> -->
-
-        <!-- </div> -->
     </div>
 </template>
 

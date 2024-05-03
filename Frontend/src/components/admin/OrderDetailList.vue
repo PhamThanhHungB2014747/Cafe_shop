@@ -68,45 +68,7 @@
                                     
                                 </tbody>
                             </table>
-  <!-- <div class="container">
-    <section class="section">
-      <div class="card">
-        <div class="card-body">
-          <table class="table table-striped text-center" id="table1">
-            <thead>
-              <tr>
-                <th>STT</th>
-                <th>Tên bánh</th>
-                <th>Hình ảnh</th>
-                <th>Số lượng</th>
-                <th>Giá</th>
-                <th>Tổng</th>
-                <th>Trạng thái</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="(product, index) in orders.products" :key="order._id">
-                <td>{{ index + 1 }}</td>
-                <td>{{ product.name }}</td>
-                <td>
-                  <img :src="'http://localhost:3000/' + product.image" alt="Product Image" style="height: 50px" />
-                </td>
-                <td>{{ product.quantity_sale }}</td>
-                <td>{{ product.price }}</td>
-                <td>{{ product.quantity_sale * product.price }}</td>
-                <td
-                :style="{ color: order.status === 0 ? 'grey' : order.status === 1 ? 'hotpink' : order.status === 2 ? 'green'  : order.status === 4 ? 'blue' : 'red', fontWeight: 'bold' }">
-                                    {{ order.status === 0 ? "Đang chờ duyệt..." : order.status === 1 ? "Đang gói hàng" : order.status === 2 ? "Đang vận chuyển" : order.status === 3 ? "Đã hủy" : "Đã hoàn thành"}}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-    <p>{{ orders.name }}</p>
-    <p>{{ orders.phone }}</p>
-    <p>{{ orders.address }}</p> -->
+  
   </div>
 </template>
   
@@ -139,7 +101,7 @@ export default defineComponent({
 <style scoped>
 .track {
     position: relative;
-    background-color: #ddd;
+    /* background-color: #ddd; */
     height: 7px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -183,7 +145,7 @@ export default defineComponent({
     line-height: 40px;
     position: relative;
     border-radius: 100%;
-    background: #ddd
+    /* background: #ddd */
 }
 
 .track .step.active .text {

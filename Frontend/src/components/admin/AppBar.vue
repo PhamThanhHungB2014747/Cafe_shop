@@ -62,18 +62,6 @@
 
     </nav>
     <!-- End of Topbar -->
-    <!-- <div class="appbar">
-        <div>
-            <nav class="navbar navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button">
-                    <span class="navbar-toggler-icon ms-2"></span>
-                </button>
-                <div class="btn-group">
-                    <button class="btn btn-primary me-2" type="button" @click="signOut">Đăng xuất</button>
-                </div>
-            </nav>
-        </div>
-    </div> -->
 </template>
 
 <script>

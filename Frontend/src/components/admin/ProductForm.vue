@@ -34,9 +34,9 @@
             <img :src="'http://localhost:3000/' + productLocal.image" alt="Product Image" style="max-width: 20%;" />
         </div>
         <div class="form-group">
-            <label for="category">Thương hiệu</label>
+            <label for="category">Loại nước</label>
             <select name="category" class="form-control" v-model="productLocal.category_id">
-                <option :value="null">--Chọn Thương hiệu--</option>
+                <option :value="null">--Chọn Loại nước--</option>
                 <option v-for="category in categories" :value="category._id">{{ category.name }}</option>
             </select>
             <ErrorMessage name="category" class="error-feedback" />

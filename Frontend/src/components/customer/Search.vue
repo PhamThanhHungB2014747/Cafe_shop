@@ -68,18 +68,7 @@
                             </div>
 
                         </div>
-                        <!-- <div class="product-card" v-for="(product, index) in filteredProducts" :key="product._id">
-                            <img :src="'http://localhost:3000/' + product.image" alt="" />
-                            <h5 class="title text-center" style="font-size: 20px">{{ product.name }}</h5>
-                            <div class="price text-danger"
-                                style=" font-size: 20px; font-weight: bold; font-family: Arial, sans-serif; color: #ff0000;">
-                                {{ product.price + " VNĐ" }}
-                            </div>
-                            <div class="price text-danger"
-                                style="font-size: 16px; font-weight: normal; font-family: Verdana, sans-serif; color: #000000; ">
-                                {{ product.quantity_remain === 0 ? "HẾT HÀNG" : "Số lượng kho:" + product.quantity_remain }}
-                            </div>
-                        </div> -->
+                        
                     </div>
                     <div class="modal-footer mt-4">
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>

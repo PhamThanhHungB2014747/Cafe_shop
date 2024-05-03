@@ -110,11 +110,11 @@
                     <div class="owl-carousel row">
                         <div class="service-item col-3">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/service-9.png"
+                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/product/7up.png"
                                     style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-success rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Creamea Ice</h5>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Seven Up</h5>
                                 <p class="text-white">OUR. - Where Art and Coffee Blend.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn
                                     More</a>
@@ -122,11 +122,11 @@
                         </div>
                         <div class="service-item col-3">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/service-6.png"
+                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/coca.jpg"
                                     style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-success rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Oreo Ice Cream</h5>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Coca Cola</h5>
                                 <p class="text-white">OUR. - Where Art and Coffee Blend.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn
                                     More</a>
@@ -134,11 +134,11 @@
                         </div>
                         <div class="service-item col-3">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/service-7.png"
+                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/product/pepsi.jpg"
                                     style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-success rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Magnum Cream</h5>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Pepsi</h5>
                                 <p class="text-white">OUR. - Where Art and Coffee Blend.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn
                                     More</a>
@@ -146,11 +146,11 @@
                         </div>
                         <div class="service-item col-3">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/service-8.png"
+                                <img class="rounded-circle w-100 h-100 bg-success p-3" src="src/assets/img/about.jpg"
                                     style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-success rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Cornetto Ice Cream</h5>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5 text-white">Coffee</h5>
                                 <p class="text-white">OUR. - Where Art and Coffee Blend.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn
                                     More</a>

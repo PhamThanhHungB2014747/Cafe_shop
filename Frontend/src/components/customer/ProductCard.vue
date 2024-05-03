@@ -44,42 +44,7 @@
         </div>
     </div>
 
-    <!-- <div class="product-card" v-for="(product, index) in products" :key="product._id">
-        <img :src="'http://localhost:3000/' + product.image" alt="" />
-        <h5 class="title text-center" style="font-size: 20px">{{ product.name }}</h5>
-        <div class="price text-danger"
-            style=" font-size: 20px; font-weight: bold; font-family: Arial, sans-serif; color: #ff0000;">
-            {{ product.price + " VNĐ" }}
-        </div>
-        <div class="price text-danger"
-            style="font-size: 16px; font-weight: normal; font-family: Verdana, sans-serif; color: #000000; ">
-            {{ product.quantity_remain === 0 ? "HẾT HÀNG" : "Số lượng kho:" + product.quantity_remain }}
-        </div>
-
-        <div class="card-footer text-center">
-            <div class="input-group">
-                <input type="number" class="form-control" v-model="quantity_sale[index]" min="1"
-                    :max="product.quantity_remain" />
-                <button class="btn-cart btn " @click="addToCart(
-                    {
-                        _id: product._id,
-                        name: product.name,
-                        description: product.description,
-                        price: product.price,
-                        image: product.image,
-                        quantity_sale: quantity_sale[index],
-                        category_id: product.category._id,
-                    }
-                )" :disabled="product.quantity_remain === 0 || quantity_sale[index] > product.quantity">
-
-                    <i class="fas fa-cart-plus"></i> Thêm vào giỏ
-                </button>
-                <router-link :to="{ name: 'product.detail', params: { id: product._id, category: product.category_id } }">
-                    <button type="button" class="btn btn-info">Chi tiết</button>
-                </router-link>
-            </div>
-        </div>
-    </div> -->
+    
 </template>
   
 <script>

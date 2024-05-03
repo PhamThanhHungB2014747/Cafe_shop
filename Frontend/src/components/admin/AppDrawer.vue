@@ -93,52 +93,8 @@
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Quản lý khách hàng</span></a>
         </li>
-
-        <!-- Sidebar Toggler (Sidebar)
-        <div class="text-center d-none d-md-inline">
-            <button class="rounded-circle border-0" id="sidebarToggle"></button>
-        </div> -->
-
     </ul>
     <!-- End of Sidebar -->
-    <!-- <nav class="w3-sidebar w3-white" style="z-index: 3; width: 300px">
-        <br />
-        <div class="w3-container w3-row">
-            <div>
-                <img src="https://w7.pngwing.com/pngs/922/214/png-transparent-computer-icons-avatar-businessperson-interior-design-services-corporae-building-company-heroes-thumbnail.png"
-                    class="w3-circle w3-margin-right" style="width: 100px; margin-left: 70px;" />
-            </div>
-            <p>{{ admin.role}}</p>
-            <p>{{ admin.name}}</p>
-        </div>
-        <hr />
-        <div class="w3-bar-block">
-            <a v-if="storeAdmin.isAuthenticatedAdmin || storeSale.isAuthenticatedSale || storeStaff.isAuthenticatedStaff"
-                class="w3-bar-item w3-button w3-padding menu-item" @click="goToDashBoard">
-                <i class="fa fa-tachometer fa-fw"></i> DASH BOARD
-            </a>
-            <a v-if="storeAdmin.isAuthenticatedAdmin || storeStaff.isAuthenticatedStaff"
-                class="w3-bar-item w3-button w3-padding menu-item" @click="goToCategory">
-                <i class="fa fa-list-alt fa-fw"></i> QUẢN LÝ Thương hiệu
-            </a>
-            <a v-if="storeAdmin.isAuthenticatedAdmin || storeStaff.isAuthenticatedStaff"
-                class="w3-bar-item w3-button w3-padding menu-item" @click="goToProduct">
-                <i class="fa fa-shopping-cart fa-fw"></i> QUẢN LÝ SẢN PHẨM
-            </a>
-            <a v-if="storeAdmin.isAuthenticatedAdmin" class="w3-bar-item w3-button w3-padding menu-item"
-                @click="goToCustomer">
-                <i class="fa fa-users fa-fw"></i> QUẢN LÝ KHÁCH HÀNG
-            </a>
-            <a v-if="storeSale.isAuthenticatedSale || storeAdmin.isAuthenticatedAdmin"
-                class="w3-bar-item w3-button w3-padding menu-item" @click="goToOrder">
-                <i class="fa fa-file-text fa-fw"></i> QUẢN LÝ HÓA ĐƠN
-            </a>
-            <a v-if="storeAdmin.isAuthenticatedAdmin" class="w3-bar-item w3-button w3-padding menu-item"
-                @click="goToAdmin">
-                <i class="fa fa-users fa-fw"></i> QUẢN LÝ NHÂN VIÊN
-            </a>
-        </div>
-    </nav> -->
 </template>
 
 <script>
@@ -186,35 +142,3 @@ export default defineComponent({
     },
 });
 </script>
-
-<!-- <style scoped>
-
-
-.w3-sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow-y: auto;
-}
-
-.menu-item:hover {
-    background-color: orange;
-}
-
-.menu-item {
-    margin-bottom: 20px;
-
-}
-
-.w3-bar-block {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://www.w3schools.com/w3css/4/w3.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-</style> -->

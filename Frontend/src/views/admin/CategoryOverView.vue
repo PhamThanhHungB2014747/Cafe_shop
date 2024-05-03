@@ -1,7 +1,7 @@
 <template>
     <div>
         <CategoryList :categories="categories" @rerender:categories="retrieveCategories"></CategoryList>
-        <div v-if="!categories.length">Không có Thương hiệu.</div>
+        <div v-if="!categories.length">Không có Loại nước.</div>
     </div>
 </template>
 

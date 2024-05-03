@@ -1,6 +1,6 @@
 <template>
     <div class="page">
-        <h4>Thêm Thương hiệu sản phẩm</h4>
+        <h4>Thêm Loại nước</h4>
         <CategoryForm :category="{}" @submit:category="addCategory" />
     </div>
     <div class="p-5 m-5"></div>

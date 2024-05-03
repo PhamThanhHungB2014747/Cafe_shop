@@ -9,10 +9,10 @@
                     <header>
                         <div class="flex justify-center absolute items-center w-full flex-col">
                             <span class="text-success text-lg">
-                                <router-link tag="span" class="text-lg cursor-pointer" to="/">
+                                <router-link tag="span" class="text-lg cursor-pointer text-success" to="/">
                                     Trang chủ
                                 </router-link>
-                                <router-link tag="span" class="text-lg cursor-pointer" to="/">
+                                <router-link tag="span" class="text-lg cursor-pointer text-success" to="/">
                                     / Sản phẩm/
                                 </router-link>
                                 {{ product.name }}
@@ -84,9 +84,9 @@
                     <h4>Thông tin sản phẩm</h4>
                     <ul id="tabs" class="nav nav-tabs">
                         <li class="nav-item"><a href="" data-target="#home1" data-toggle="tab"
-                                class="nav-link small text-uppercase active">Thành phần</a></li>
+                                class="nav-link small text-uppercase active text-dark">Thành phần</a></li>
                         <li class="nav-item"><a href="" data-target="#profile1" data-toggle="tab"
-                                class="nav-link small text-uppercase ">Giá trị dinh dưỡng</a></li>
+                                class="nav-link small text-uppercase text-dark ">Giá trị dinh dưỡng</a></li>
                     </ul>
                     <br>
                     <div id="tabsContent" class="tab-content pb-5">
@@ -100,8 +100,7 @@
                                         Ngoài ra, cà phê còn chứa các hợp chất khác như caffeine, axit chlorogenic, trigonelline, lignin, và nhiều chất khác. 
                                         Mỗi loại cà phê có thành phần hóa học riêng, tạo nên hương vị và trải nghiệm cảm quan độc đáo cho từng loại cà phê</p>
                                 </div>
-                                <!-- <div class="col-md-4"><img src="https://pngimg.com/d/ice_cream_PNG5101.png"
-                                        class="float-right img-fluid img-rounded"></div> -->
+                               
                             </div>
                         </div>
                         <div id="profile1" class="tab-pane fade col-8">
@@ -137,31 +136,7 @@
             </div>
         </section>
 
-        <!-- <div class="product-details">
-            <img :src="'http://localhost:3000/' + product.image" alt="" />
-
-            <div class="product-info">
-                <h5>{{ product.name }}</h5>
-                <p>{{ product.description }}</p>
-                <p>Giá: {{ product.price }}</p>
-                <p>Số lượng còn lại: {{ product.quantity_remain }}</p>
-                <input type="number" class="form-control" v-model="quantity_sale" min="1" :max="product.quantity_remain" />
-                <button class="btn-cart btn " @click="addToCart(
-                    {
-                        _id: product._id,
-                        name: product.name,
-                        description: product.description,
-                        price: product.price,
-                        image: product.image,
-                        quantity_sale: quantity_sale,
-                        category_id: product.category_id,
-                    }
-                )" :disabled="product.quantity_remain === 0 || quantity_sale > product.quantity">
-
-                    <i class="fas fa-cart-plus"></i> Thêm vào giỏ
-                </button>
-            </div>
-        </div> -->
+       
     </div>
 </template>
   
